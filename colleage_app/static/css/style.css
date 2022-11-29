@@ -1,0 +1,73 @@
+body{
+    padding:0;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+  
+
+}
+.container_head{
+    height: 100px;
+    background: #2d2d2d;
+    border-bottom: 1px solid #555454 ;
+    position: sticky;
+    top:0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+ .head_text a {
+    text-decoration: none;
+    color:white;
+}
+.logo_head{
+    color: #cbb58b;
+    margin-right:auto;
+    margin-left:40px;
+    font-size: 37px;
+}
+.logo_head span{
+    font-size: 34px;
+}
+
+.container_head .head_text{
+    color:white;
+    margin:30px;
+}
+
+.main_body{
+    width:100%;
+    height:550px;
+    background-image: url(../images/homep1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.main_body_text{
+    color:white;
+    font-size:23px;
+    text-align: center;
+    margin-top: 85px;
+   
+}
+.main_body_text p {
+    line-height: 40px;
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+   
+}
+

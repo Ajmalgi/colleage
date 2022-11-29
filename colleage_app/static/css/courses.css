@@ -1,0 +1,75 @@
+*{
+    padding:0;
+    margin: 0;
+
+}
+body{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+     background: #f2f2f2;
+  
+}
+.container_head{
+    height: 100px;
+    background: #2d2d2d;
+    border-bottom: 1px solid #555454 ;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white; 
+}
+
+.card3{
+    width: 265px;
+    height: 340px;
+    background:white;
+  
+}
+.c3img img{
+    width:100%;
+}
+.text {
+    margin-top: 10px;
+    
+    line-height: 35px;
+    margin-left: 25px;
+}
+
+.course_body{
+    
+    height:600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+.btn{
+    
+    height: 70px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.btn button{
+    width:20%;
+    height:50px;
+    border: solid #cbb58b;
+    background: white;
+    font-size: 20px;
+    font-weight:600;
+    margin-bottom: 17px;
+
+}
+.btn button:hover{
+    background:#cbb58b;
+    color:white;
+
+}
