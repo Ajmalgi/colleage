@@ -1,1 +1,1 @@
-web: gunicorn colleage_website.wsgi --log-file -
+web: gunicorn colleage_website.wsgi --log-file - 
