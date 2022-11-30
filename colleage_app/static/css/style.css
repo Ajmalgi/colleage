@@ -20,11 +20,26 @@ body{
     border-bottom: 1px solid #555454 ;
     position: sticky;
     top:0;
-    display: flex;
-    flex-wrap: wrap;
+    display: flex; 
     justify-content: flex-end;
     align-items: center;
     
+}
+@media (max-width: 710px) {
+    .logo_head {
+         position: absolute;
+     left:149px;
+      bottom:45px;
+     display: flex;
+     justify-content: center;
+     align-items: center;   
+  }
+  
+   .head_text{
+     position: relative;
+   top: 32px;
+   
+}
 }
 
  .head_text a {
@@ -36,6 +51,8 @@ body{
     margin-right:auto;
     margin-left:40px;
     font-size: 37px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
 }
 .logo_head span{
     font-size: 34px;
@@ -44,6 +61,7 @@ body{
 .container_head .head_text{
     color:white;
     margin:30px;
+   
 }
 
 .main_body{
