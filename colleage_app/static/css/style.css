@@ -14,16 +14,19 @@ body{
 
 }
 .container_head{
+    width: 100%;
     height: 100px;
     background: #2d2d2d;
     border-bottom: 1px solid #555454 ;
     position: sticky;
     top:0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     align-items: center;
     
 }
+
  .head_text a {
     text-decoration: none;
     color:white;
@@ -67,8 +70,40 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-  
-   
+    text-align: center;   
 }
+.fa {
+   
+    width: 50px;
+    
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa-facebook {
+    color:#2d2d2d;
+    
+  }
+  .fa-twitter {
+    
+    color:#2d2d2d;
+  }
+  .fa-instagram {
+    
+    color:#2d2d2d;
+  }  
 
+  .footer{
+    background: #cbb58b;
+    width:100%;
+    height:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer p{
+    color:#2d2d2d;
+    letter-spacing: 0.5px;
+  }
+    
