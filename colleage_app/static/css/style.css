@@ -25,18 +25,20 @@ body{
     align-items: center;
     
 }
-@media (max-width: 710px) {
+@media (max-width: 390px) {
     .logo_head {
          position: absolute;
-     left:149px;
+         /* font-size: 25px; */
+     left:64px;
       bottom:45px;
      display: flex;
      justify-content: center;
      align-items: center;   
   }
-  
+
    .head_text{
      position: relative;
+     left:20px;
    top: 32px;
    
 }
